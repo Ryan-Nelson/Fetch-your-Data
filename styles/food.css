@@ -1,0 +1,23 @@
+body {
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+
+.bordered {
+    border: 1px solid brown;
+}
+
+
+.foodlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.foodItem {
+
+    flex-basis: 20%;
+    padding: 10px;
+}
